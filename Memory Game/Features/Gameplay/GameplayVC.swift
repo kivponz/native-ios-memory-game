@@ -15,6 +15,7 @@ class GameplayVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        displayCustomBackButton()
     }
 
 }

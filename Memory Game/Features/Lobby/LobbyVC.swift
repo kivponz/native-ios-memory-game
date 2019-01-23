@@ -10,17 +10,10 @@ import UIKit
 
 class LobbyVC: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-
-    @IBAction private func sizeOptionTapped(_ sender: UIButton) {
-
+    @IBAction private func sizeOptionTapped(_ sizeOptionButton: UIButton) {
         var gridSize = (columns: 0, rows: 0)
 
-        switch sender.tag {
+        switch sizeOptionButton.tag {
         case 0: gridSize = (3,4)
         case 1: gridSize = (5,2)
         case 2: gridSize = (4,4)
@@ -28,10 +21,10 @@ class LobbyVC: UIViewController {
         default: ()
         }
 
-
         let gameplayVC = GameplayVC.instance()
         gameplayVC.gridSize = gridSize
         navigationController?.pushViewController(gameplayVC, animated: true)
     }
+
 }
 

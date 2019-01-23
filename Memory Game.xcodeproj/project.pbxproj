@@ -17,6 +17,7 @@
 		88BB02A721F8C66700D0EE4C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 88BB02A621F8C66700D0EE4C /* Default-568h@2x.png */; };
 		88BB02A821F8D7D700D0EE4C /* LobbyVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8805DABF21F7B7BC0097142A /* LobbyVC.storyboard */; };
 		88BB02A921F8D7DF00D0EE4C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8805DAC421F7B7BE0097142A /* LaunchScreen.storyboard */; };
+		88BB02AD21F8E7E400D0EE4C /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BB02AC21F8E7E400D0EE4C /* UIViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		88BB02A121F8C56E00D0EE4C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88BB02A421F8C59600D0EE4C /* UIStoryboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIStoryboard.swift; path = "Memory Game/Utilites/UIStoryboard.swift"; sourceTree = SOURCE_ROOT; };
 		88BB02A621F8C66700D0EE4C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		88BB02AC21F8E7E400D0EE4C /* UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIViewController.swift; path = "Memory Game/Utilites/UIViewController.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				88BB02A421F8C59600D0EE4C /* UIStoryboard.swift */,
+				88BB02AC21F8E7E400D0EE4C /* UIViewController.swift */,
 			);
 			name = Utilities;
 			path = "New Group1";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88BB02A521F8C59600D0EE4C /* UIStoryboard.swift in Sources */,
+				88BB02AD21F8E7E400D0EE4C /* UIViewController.swift in Sources */,
 				88BB029C21F8C43400D0EE4C /* GameplayVC.swift in Sources */,
 				8805DABE21F7B7BC0097142A /* LobbyVC.swift in Sources */,
 				8805DABC21F7B7BC0097142A /* AppDelegate.swift in Sources */,
