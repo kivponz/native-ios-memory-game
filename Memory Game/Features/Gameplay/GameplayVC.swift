@@ -10,12 +10,25 @@ import UIKit
 
 class GameplayVC: UIViewController {
 
-    var gridSize: (columns: Int, rows: Int)?
+    // MARK: - PROPERTIES -
+
+    @IBOutlet weak var collectionView: UICollectionView!
+
+    var cardDeck: CardDeck?
+    var gridSize: (rows: Int, columns: Int)? {
+        didSet {
+            guard let gridSize = gridSize else { return }
+            cardDeck = CardDeck(numberOfCards: gridSize.rows * gridSize.columns)
+        }
+    }
+
+    // MARK: - OVERRIDE FUNCTIONS -
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         displayCustomBackButton()
+        setupCollectionView()
     }
 
 }

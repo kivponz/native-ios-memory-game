@@ -10,22 +10,23 @@ import UIKit
 
 extension UIViewController {
 
-    // MARK: - PUBLIC METHODS -
+    class func instance() -> Self {
+        let storyboardName = String(describing: self)
+        let storyboard = UIStoryboard(name: storyboardName, bundle: Bundle.main)
+        return storyboard.initialViewController()
+    }
 
     func displayCustomBackButton() {
         let backNavButton = UIButton(type: .custom)
         backNavButton.setImage(UIImage(named:"backNavButton"), for: .normal)
-        backNavButton.addTarget(self, action: #selector(customBackButtonAction), for: UIControl.Event.touchUpInside)
+        backNavButton.addTarget(self, action: #selector(customBackButtonAction), for: .touchUpInside)
         let backNavBarItem = UIBarButtonItem(customView: backNavButton)
-        backNavBarItem.customView?.widthAnchor.constraint(equalToConstant: 51).isActive = true
+        backNavBarItem.customView?.widthAnchor.constraint(equalToConstant: 51.0).isActive = true
         navigationItem.leftBarButtonItem = backNavBarItem
     }
-
-    // MARK: - PRIVATE METHODS -
 
     @objc private func customBackButtonAction() {
        navigationController?.popViewController(animated: true)
     }
-
+    
 }
-

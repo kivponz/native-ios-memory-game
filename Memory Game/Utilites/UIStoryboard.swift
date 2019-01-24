@@ -8,17 +8,10 @@
 
 import UIKit
 
-extension UIViewController {
-
-    class func instance() -> Self {
-        let storyboardName = String(describing: self)
-        let storyboard = UIStoryboard(name: storyboardName, bundle: Bundle.main)
-        return storyboard.initialViewController()
-    }
-}
-
 extension UIStoryboard {
+
     func initialViewController<T: UIViewController>() -> T {
         return self.instantiateInitialViewController() as! T
     }
+    
 }

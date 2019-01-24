@@ -35,12 +35,13 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CnD-tD-ckc">
                                 <rect key="frame" x="16" y="90" width="343" height="47"/>
-                                <color key="backgroundColor" red="0.96984294476006527" green="0.96592930394114618" blue="0.99457062329283819" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.86698789471504023" green="0.92793037667509282" blue="0.99457062329283819" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="VwR-ff-lgK"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <state key="normal" title="3 x 4">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.1174863028" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.2239909158573965" green="0.5877564617866291" blue="0.96852204907161799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="sizeOptionTapped:" destination="5ne-Vi-l07" eventType="touchUpInside" id="JqC-oT-AIP"/>
@@ -48,12 +49,13 @@
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vlm-Nh-Tpu">
                                 <rect key="frame" x="16" y="145" width="343" height="47"/>
-                                <color key="backgroundColor" red="0.96984294476006527" green="0.96592930394114618" blue="0.99457062329283819" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.86698789471504023" green="0.92793037667509282" blue="0.99457062329283819" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="JKX-BE-e19"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <state key="normal" title="5 x 2">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.1174863028" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.2239909158573965" green="0.5877564617866291" blue="0.96852204907161799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="sizeOptionTapped:" destination="5ne-Vi-l07" eventType="touchUpInside" id="Y1K-HS-Iv6"/>
@@ -61,12 +63,13 @@
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l48-II-rdq">
                                 <rect key="frame" x="16" y="200" width="343" height="47"/>
-                                <color key="backgroundColor" red="0.96984294476006527" green="0.96592930394114618" blue="0.99457062329283819" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.86698789471504023" green="0.92793037667509282" blue="0.99457062329283819" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="KVp-Ob-fky"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <state key="normal" title="4 x 4">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.1174863028" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.2239909158573965" green="0.5877564617866291" blue="0.96852204907161799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="sizeOptionTapped:" destination="5ne-Vi-l07" eventType="touchUpInside" id="DOY-PW-FPx"/>
@@ -74,12 +77,13 @@
                             </button>
                             <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A9q-mF-xUS">
                                 <rect key="frame" x="16" y="255" width="343" height="47"/>
-                                <color key="backgroundColor" red="0.96984294476006527" green="0.96592930394114618" blue="0.99457062329283819" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.86698789471504023" green="0.92793037667509282" blue="0.99457062329283819" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="47" id="wDj-vf-ezn"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                                 <state key="normal" title="4 x 5">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.1174863028" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.2239909158573965" green="0.5877564617866291" blue="0.96852204907161799" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="sizeOptionTapped:" destination="5ne-Vi-l07" eventType="touchUpInside" id="l8k-Q8-3g8"/>

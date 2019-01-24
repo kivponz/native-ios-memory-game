@@ -11,18 +11,12 @@ import UIKit
 class LobbyVC: UIViewController {
 
     @IBAction private func sizeOptionTapped(_ sizeOptionButton: UIButton) {
-        var gridSize = (columns: 0, rows: 0)
-
-        switch sizeOptionButton.tag {
-        case 0: gridSize = (3,4)
-        case 1: gridSize = (5,2)
-        case 2: gridSize = (4,4)
-        case 3: gridSize = (4,5)
-        default: ()
-        }
+        let gridSizes = [
+            (3,4), (5,2), (4,4), (4,5)
+        ]
 
         let gameplayVC = GameplayVC.instance()
-        gameplayVC.gridSize = gridSize
+        gameplayVC.gridSize = gridSizes[sizeOptionButton.tag]
         navigationController?.pushViewController(gameplayVC, animated: true)
     }
 
